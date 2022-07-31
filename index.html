@@ -13,17 +13,54 @@
   <title>PlatziMovies</title>
 </head>
 <body>
-  <header id="header" class="header-container">
-    <span class="header-arrow inactive">&lt;</span>
-    <h1 class="header-title">PlatziMovies</h1>
-    <h1 class="header-title header-title--categoryView inactive">Acción</h1>
+ 
+ 
 
-    <form id="searchForm" class="header-searchForm">
+  <header id="header" class="header-container">  
+    <section class="head">
+  <h2 class="headh2">tv & movie</h2>
+  <form id="searchForm" class="header-searchForm">
       <input type="text" placeholder="Vengadores" />
       <button id="searchBtn">🔍</button>
     </form>
-  </header>
+  
+</section>
+  
+       <span class="header-arrow inactive">&lt; </span>
+     </header>
+    <!--<img
+    src="esquema-del-boton-de-flecha-cuadrada-de-inicio-de-sesion.png"
+    class="home-img"
+    alt="Nombre de la película"
+  />   -->
+ 
+ 
+    <h1 class="header-title header-title--categoryView inactive">Acción</h1>
+   
+    <!--  <img
+        src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
+        class="movie-img-principal"
+        alt="Nombre de la película" />
+     <h1 div="movieTitle"class="header-title">PlatziMovies</h1>
+      <div id="description-movie" class="description-movie"></div>
+    </div>-->
 
+  
+ 
+  <section class="section-slider">
+      <h2 class="trendingPreview-title">TV</h2>
+    <article id="movie-Principal" class="principalint">
+    
+      <!-- <div class="movie-container">
+        <img
+          src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
+          class="movie-img"
+          alt="Nombre de la película"
+        />
+      </div> --> 
+     
+    </article>
+    </section>
   <section id="trendingPreview" class="trendingPreview-container">
     <div class="trendingPreview-header">
       <h2 class="trendingPreview-title">Tendencias</h2>
@@ -42,9 +79,19 @@
   </section>
 
   <section id="categoriesPreview" class="categoriesPreview-container">
-    <h2 class="categoriesPreview-title">Categorías</h2>
+    <h2 class="categoriesPreview-title">Categorías movies</h2>
 
     <article class="categoriesPreview-list">
+      <!-- <div class="category-container">
+        <h3 id="id28" class="category-title">Romance</h3>
+      </div> -->
+    </article>
+  </section>
+
+  <section id="categoriesPreviewtv" class="categoriesPreview-container">
+    <h2 class="categoriesPreview-title">Categorías tv</h2>
+
+    <article class="categoriesPreviewtv-list">
       <!-- <div class="category-container">
         <h3 id="id28" class="category-title">Romance</h3>
       </div> -->
@@ -129,7 +176,7 @@
     </article>
   </section>
 
-  <footer>Hecho con amor en Platzi por @juandc</footer>
+  <footer>Hecho con amor por YERSON CORREA CURSO DE Platzi</footer>
   
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="./src/secrets.js"></script>
